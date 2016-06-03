@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_option">
+        <item>图书名称</item>
+        <item>作者</item>
+        <item>标准号(ISBN)</item>       
+    </string-array>
+</resources>

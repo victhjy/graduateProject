@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:descendantFocusability="blocksDescendants" >
+
+        <ImageView
+            android:id="@+id/searchresult_image"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"            
+            />
+
+        <TextView
+            android:id="@+id/searchresult_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/searchresult_image"
+            android:textSize="16sp" />
+
+         <TextView
+             android:id="@+id/searchresult_getbooknum"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/searchresult_author"
+             android:layout_marginLeft="5dp"
+             android:layout_toRightOf="@id/searchresult_image"
+             android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/searchresult_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/searchresult_title"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/searchresult_image"
+            android:textSize="14sp" />
+        <Button 
+            android:id="@+id/listitem_button"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"                     
+            android:textSize="12sp" 
+            android:paddingRight="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/searchresult_getbooknum"         
+            />
+
+    </RelativeLayout>
+
+</GridLayout>

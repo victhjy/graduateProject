@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:descendantFocusability="blocksDescendants" >
+
+        <TextView
+            android:id="@+id/library_board_listview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"           
+            android:textSize="19sp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+<!-- android:layout_height="80dp" -->
+         <TextView
+             android:id="@+id/library_board_listview_content"
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content"           
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/library_board_listview_title"
+             android:layout_marginTop="15dp"
+             android:textSize="14sp"
+             android:ellipsize="end"  
+             android:lines="4"           
+              />
+     
+            />
+
+    </RelativeLayout>
+
+</GridLayout>

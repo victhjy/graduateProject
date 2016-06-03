@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hjy图书馆</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">用户登录</string>
+    <string name="username_tips">学号，如20124716</string>
+    <string name="password_tips">密码，初始为123456</string>
+    <string name="title_activity_main">Hjy图书馆</string>
+    <string name="main_search">图书检索</string>
+    <string name="main_rank">热门图书</string>
+    <string name="main_login">我的</string>
+    <string name="main_libraryboard">图书馆动态</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_new_book">NewBookActivity</string>
+    <string name="title_activity_rank">RankActivity</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_borrow_info">借阅信息</string>
+    <string name="title_activity_fav">收藏夹</string>
+    <string name="title_activity_book_detail">图书详情</string>
+    <string name="title_activity_book_detail_web">BookDetailWebActivity</string>
+    <string name="title_activity_library_board">LibraryBoardActivity</string>
+    <string name="title_activity_user_detail">UserDetailActivity</string>
+    <string name="title_activity_my_borrow">MyBorrowActivity</string>
+    <string name="title_activity_my_fav">MyFavActivity</string>
+    
+    <string name="WWW">http://192.168.191.1:8080/Bigbangbang/services/AllApi?method=</string>
+    <!-- <string name="WWW">http://172.20.10.3:8080/Bigbangbang/services/AllApi?method=</string> -->
+    <string name="title_activity_library_board_detail">LibraryBoardDetailActivity</string>
+
+</resources>

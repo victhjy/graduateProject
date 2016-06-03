@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hjy.activities.UserDetailActivity" >
+
+    <TextView
+        android:id="@+id/user_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="姓名：" />
+
+    <TextView
+        android:id="@+id/user_schoolid_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_name_textview"
+        android:layout_below="@+id/user_name_textview"
+        android:layout_marginTop="20dp"
+        android:text="学号：" />
+
+    <TextView
+        android:id="@+id/user_phone_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_name_textview"
+        android:layout_below="@+id/user_schoolid_textview"
+        android:layout_marginTop="20dp"
+        android:text="电话：" />
+
+    <TextView
+        android:id="@+id/user_class_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_name_textview"
+        android:layout_below="@+id/user_phone_textview"
+        android:layout_marginTop="20dp"
+        android:text="班级：" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/user_name_textview"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/user_name_textview"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/user_schoolid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/user_schoolid_textview"
+        android:layout_below="@+id/user_name"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/user_schoolid_textview"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/user_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/user_phone_textview"
+        android:layout_below="@+id/user_schoolid"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/user_phone_textview"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/user_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/user_class_textview"
+        android:layout_below="@+id/user_phone"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/user_class_textview"
+        android:text="TextView" />
+
+</RelativeLayout>
