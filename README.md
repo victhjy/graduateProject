@@ -1,6 +1,4 @@
-XiyouLibrary
+HjyLibrary
 ============
 
-西邮图书馆-Android
-
-自己做的Android版的西邮图书馆
+hjy 2016/6 毕业设计  Android客户端
